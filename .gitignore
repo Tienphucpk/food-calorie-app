@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables (KHÔNG push lên git)
+.env
+.env.local
+.env.production
+
+# Build output
+dist/
+build/
+
+# AI Model weights (quá lớn cho git)
+ai_service/trained_model/
+ai_service/dataset/
+ai_service/temp_uploads/
+ai_service/logs/
+ai_service/*.pth
+ai_service/*.h5
+ai_service/.cache/
+
+# Upload files
+backend/src/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
